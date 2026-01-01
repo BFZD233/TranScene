@@ -1,7 +1,7 @@
 # Multi-label Stereo Matching for Transparent Scene Depth Estimation
 
 
-![intro](./img/intro.png "intro")
+![intro](./img/intro1.png "intro")
 ## News
 
 - **2025.5.21**: The code will be uploaded in a few weeks.
@@ -43,8 +43,9 @@ We use the [TartanAir](https://github.com/castacks/tartanair_tools), [SceneFlow]
             └── frames_finalpass
     ├── TranScene
         ├── left
-        │   ├── disrparity
-        │   ├── disparity_without_trans 
+        │   ├── foreground
+        │   ├── background
+        │   ├── mask 
         │   └── img
         └── right
 ```
